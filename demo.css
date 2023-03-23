@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+body {
+  font-size: 120%;
+  /*background: #F8F8FF;*/
+}
+
+
+  
+.navbar ul{
+  overflow: auto;
+  padding:5px;
+  color: black;
+}
+
+.navbar li{
+  float:right;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: right;
+  border: 2px solid black;
+  border-radius: 5rem;
+  list-style-type: none;
+  margin: 0.6rem 0.6rem 1.3rem 1.3rem;
+  padding: 0.6rem;
+  background-color: white;
+  color: black;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+      
+body {
+  font-size: 120%;
+  /*background: #F8F8FF;*/
+}
+
+.heading1{
+  text-align: center;
+  padding:1.3rem;
+  margin: 0.4rem;
+}
+.hero{
+  text-align: center;
+  border:0.3rem solid black;
+  border-radius: 1rem;
+  background-color: rgb(156, 122, 55);
+}
+.para1{
+  padding:1.3rem;
+  margin:0.4rem;
+}
+
+.para2{
+  padding:0.7rem;
+  margin:0.2rem;
+}
+
+.link1{
+  padding:1.3rem;
+  margin:0.4rem;
+}
+
+.form1{
+  padding:1.3rem;
+  margin:0.4rem;
+}
+/*body {
+background-image: url("C:\Users\hp\OneDrive\Desktop\industrial3.jpg");
+}*/
+      
+header {
+  width: 97%;
+  color: white;
+  background-color: #5F9EA0;
+  text-align: center;
+  padding: 20px;
+}
+.container{
+  display: grid;
+  grid-template-areas:
+  'service about hypert'
+  ;
+  grid-gap: 1rem;
+  background-image: url("pic1.jpg");
+  opacity: 0.7;
+  z-index: -1;
+  font-weight: bolder;
+}
+#services{
+  grid-area: service;
+
+}
+
+#about{
+  grid-area: about;
+}
+
+#hypertext{
+  grid-area:hypert;
+}
+
+.section2{
+  margin:1rem;
+  padding:0.5rem;
+  border:0.3rem solid black;
+  border-radius: 0.6rem;
+  text-align: center;
+}
+ 
+#output{
+  margin-bottom: 1rem;
+}
